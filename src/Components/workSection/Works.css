@@ -1,5 +1,4 @@
 .workSection{
-    /* background-color: hsl(264, 51%, 71%); */
     /* height: 100vh; */
     display: flex;
     align-items: center;
@@ -49,7 +48,7 @@
     margin-left: 5px;
     width: 48%;
     border: 2px solid rgb(102, 96, 96);
-color: #fff;
+color: #f7f2f2;
     border-radius: 20px;
     /* padding: 10px; */
 
