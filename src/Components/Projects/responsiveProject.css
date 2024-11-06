@@ -1,0 +1,23 @@
+@media screen and (max-width:800px) {
+    .projectGrid{
+        display: flex !important;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .projectPage{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .projectDiv{
+        width: 100% !important;
+        height: 200px !important;
+        box-shadow: 1px 2px 3px 1px rgb(241, 241, 241);
+
+        h2{
+            border-bottom: 1px solid black;
+            color: white;
+        }
+    }
+}

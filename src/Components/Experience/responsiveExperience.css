@@ -1,0 +1,72 @@
+@media screen and (max-width:800px) {
+    .experiencePage{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .secondHalf{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .experienceDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .heading{
+        font-size: 15px;
+    
+        .break{
+            margin-left: 5px;
+            font-family: "Lora", serif;
+    
+        }
+    }
+
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+              div{
+
+            margin-top: 10px;
+            font-size: 12px;
+
+            
+        }
+    }
+
+    .experienceDesc{
+       
+        font-size: 14px;
+    
+    
+    }
+
+    .firstHalf{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        border-bottom:1px solid rgb(45, 50, 48);
+        
+    }
+    .star.large {
+        width: 40px;
+        height: 40px;
+      }
+      
+      .star.medium {
+        width: 40px;
+        height: 40px;
+        margin-left: 0%;
+      }
+      
+      .star.extra-small {
+        width: 40px;
+        height: 40px;
+      }
+}

@@ -1,0 +1,70 @@
+@media screen and (max-width: 800px) {
+    .firstDiv {
+        display: none;
+    }
+
+    .secondDivname{
+        display: block;
+        color: rgb(136, 99, 136);
+        font-size: 30px;
+        margin-left: 100%;
+        font-style: italic;
+        font-family: "Pacifico", cursive;
+    }
+
+    .Navbuttons{
+        background-color: rgb(238, 245, 244);
+        width: 100%;
+        height: 7%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-top: 1px solid black;
+        
+        button{
+            margin-left: 25px;
+        }
+    }
+
+    .secondDiv {
+        width: 100%;
+        padding: 20px;
+        /* background-color: yellow; */
+    }
+
+    .personIntro{
+        /* background-color: plum; */
+        height: 90%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        h2{
+            text-align: right;
+            margin-right: auto;
+            padding: 0;
+        }
+        p{
+            /* background-color: aquamarine; */
+            font-size: 35px;
+            padding: 1px;
+
+        }
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .secondDiv{
+        p{
+            font-size: 23px;
+        }
+    }
+}

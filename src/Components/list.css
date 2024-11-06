@@ -1,0 +1,29 @@
+.pages {
+    position: relative;
+    z-index: 1; /* Ensure this is above the contact form */
+  }
+  
+  .pagesArrangement {
+    display: flex;
+    flex-direction: column;
+    z-index: 50; /* Ensure this is above the contact form */
+    position: relative;
+  }
+  
+  .contactView {
+    position: absolute;
+    top: 100%; /* Start below the view */
+    left: 0;
+    width: 100%;
+    z-index: -1; /* Ensure the contact form is behind the main content */
+    transition: transform 1.2s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  
+  .contactHidden {
+    transform: translateY(-50%);
+  }
+  
+  .contactSeen {
+    transform: translateY(0);
+  }
+  

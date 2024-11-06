@@ -1,0 +1,17 @@
+@media screen and (max-width:800px) {
+    .workGrid{
+        /* background-color: yellow; */
+        padding: 10px;
+    }
+    .workContainer{
+        /* background-color: plum; */
+        width: 100%;
+
+    }
+
+    .workDiv{
+        width: fit-content;
+        margin-top: 10px;
+        height: fit-content;
+    }
+}
