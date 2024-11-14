@@ -1,7 +1,8 @@
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
     .experiencePage{
         display: flex;
         flex-direction: column-reverse;
+      
     }
 
     .secondHalf{
@@ -9,12 +10,15 @@
         align-items: center;
         width: 100%;
         flex-direction: column;
+        padding: 0 !important;
+        margin: 0 !important;
     }
     
     .experienceDiv{
         display: flex;
         align-items: center;
         justify-content: center;
+      width: 90%;
     }
     
 

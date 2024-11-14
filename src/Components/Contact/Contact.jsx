@@ -7,8 +7,14 @@ const Contact = () => {
   return (
     // <div className='contactDisplay'>
     <div className='contactPage'>
+    
     <div className='contactDiv'>
-        <div className='contactText'> Reach me via email @yemiojedapo1@gmail.com, or  say hi on any of the social media platforms.</div>
+
+        <div className='contactText'>    
+         <h2>Let's talk</h2>
+
+      <p> Reach me via email @yemiojedapo1@gmail.com </p>
+      </div>
         <div className='contactImg'>
             <img src={contactImg} />
         </div>

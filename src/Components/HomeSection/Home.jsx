@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import lightImage from "../../Images/light3.png";
+import lightImage from "../../Images/rb_62407.png";
 import heroImage from "../../Images/heroImage.gif";
 import { useState } from "react";
 import "./Responsivehome.css"
@@ -11,14 +11,12 @@ const Home = () => {
   return (
     <div className="homeBody">
       <div className="firstDiv">
-      <div className="name">Hyemiie</div>
+      <div className="name">
+      <h2>Hyemiie</h2></div>
         <div className="lampContainer">
-          <div className="lampString"></div>
-          <div className="lampCover"></div>
-          <div className="lampLid"></div>
           {darkMode ? (
             <div className="lightImage">
-              <img src={lightImage} className="lightImg"></img>
+              {/* <img src={lightImage} className="lightImg"></img> */}
             </div>
           ) : (
             ""
@@ -29,11 +27,12 @@ const Home = () => {
       <div className="secondDivname">Hyemiie</div>
 
       <div className="Navbuttons">
-        <button>Writing</button>
-        <button>Projects</button>
-        <button>About</button>
-        <button>Contact</button>
-      </div>
+      <button className="curly-button">Writing</button>
+      <button className="curly-button">Projects</button>
+      <button className="curly-button">About</button>
+      <button className="curly-button">Contact</button>
+    </div>
+
    <div className="personIntro"><h2>
     Hii, I'm Yemi
    </h2>

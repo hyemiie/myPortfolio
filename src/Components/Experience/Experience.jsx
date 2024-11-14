@@ -24,8 +24,7 @@ const Experience = () => {
                 <div>HTTP/HTTPS</div>
               </div>
               <div className="experienceDesc">
-              For the past several months, myself and my two co-founders have been building Roam, a business management platform for digital creatives. Our first tool, the Fee Finder, helps creatives get paid their worth by estimating accurate project fees based off of various metrics, including the living wage in their location.
-              </div>
+              As a volunteer Technical Writer at freeCodeCamp, I write tutorials and guides that help people learn to code. In addition to writing, I build real projects to strengthen my understanding of the concepts I write on . This hands-on experience allows me to break down complex coding topics into clear, actionable steps for learners, while growing my own coding and project-building skills.              </div>
             </div>
           </div>
           <div className="experienceDiv">
@@ -42,8 +41,7 @@ const Experience = () => {
                 <div>React</div>
               </div>
               <div className="experienceDesc">
-              For the past several months, myself and my two co-founders have been building Roam, a business management platform for digital creatives. Our first tool, the Fee Finder, helps creatives get paid their worth by estimating accurate project fees based off of various metrics, including the living wage in their location.
-              </div>
+              In my role as a developer for an Urbco, I designed and maintained the server-side systems that support key accounting functions, such as handling large datasets and ensuring real-time accuracy in financial transactions. I also contributed to building a Business Intelligence (BI) tool, which allows users to easily manipulate data and create custom reports and charts              </div>
             </div>
           </div>
           <div className="experienceDiv">
@@ -61,8 +59,7 @@ const Experience = () => {
                 <div>React</div>
               </div>
               <div className="experienceDesc">
-              For the past several months, myself and my two co-founders have been building Roam, a business management platform for digital creatives. Our first tool, the Fee Finder, helps creatives get paid their worth by estimating accurate project fees based off of various metrics, including the living wage in their location.
-              </div>
+              In this role, I developed and maintained backend features using Python and JavaScript, ensuring scalability and performance. I created clear technical documentation to support the frontend team in effectively using APIs, helping improve code quality.</div>
             </div>
           </div>
         </div>

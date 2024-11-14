@@ -14,7 +14,10 @@ const Projects = () => {
   // }
   return (
     <div className="projectPage">
+          <h2>Personal Projects</h2>
+
       <div className="projectGrid">
+
         <div
           className="projectDiv"
           onMouseEnter={() => setViewSecondSkills(true)}
@@ -33,7 +36,7 @@ const Projects = () => {
                 <button>Tailwind CSS</button>
                 <button>MongoDB</button>
               </div>
-              <button className="demo"><a href="https://new-6zp9.vercel.app/">View Demo</a></button>
+              <button className="demo"><a href="https://mark-down-editor-qxuh.vercel.app/">View Demo</a></button>
             </div>
           )}
         </div>
@@ -55,11 +58,11 @@ const Projects = () => {
                 <button>MongoDB</button>
                 <button>Socket.io</button>
               </div>
-              <button className="demo"><a href="https://chatapplication-frontend-yrrj.onrender.com/">View Demo</a></button>
+              <button className="demo"><a href="https://chat-application-wrtg.vercel.app/">View Demo</a></button>
             </div>
           )}
         </div>
-        <div
+        {/* <div
           className="projectDiv"
           onMouseEnter={() => setViewSecondSkills(true)}
           onMouseLeave={() => setViewSecondSkills(false)}
@@ -80,7 +83,7 @@ const Projects = () => {
               <button className="demo"><a href="https://tier2-ten.vercel.app/">View Demo</a></button>
             </div>
           )}
-        </div>
+        </div> */}
         {/* <div
           className="projectDiv"
           onMouseEnter={() => setViewSecondSkills(true)}

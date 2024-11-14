@@ -7,9 +7,15 @@
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #aaaab0;
+    flex-direction: column;
 
     /* z-index: 0; */
     /* top: 0; */
+
+    h2{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 40px;
+    }
 }
 
 .projectGrid{
@@ -141,7 +147,7 @@ button {
 } */
 
 .GIFdemo2{
-    background-image: url(../../Images/demo2.gif);
+    background-image: url(../../Images/Recording12.gif);
     background-position: center;
     background-size:contain;
     background-repeat: no-repeat;

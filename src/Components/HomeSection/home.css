@@ -14,8 +14,12 @@
 
 .homeBody{
     height: 100vh;
-    background-color: #dedee6;
-    /* background: linear-gradient(120deg, #C5ADC5, #B2B5E0); */
+    display: flex;
+    flex-direction: row;
+    /* background-color: #dedee6; */
+    /* background: linear-gradient(120deg, #C5ADC5, #b4b6d7); */
+    background-color: rgb(255, 231, 255);
+
     /* background: linear-gradient(to left, #B2B5E0, #fff); */
     /* background: linear-gradient(90deg, #C5ADC5 20%, #B2B5E0 80%, #E0C3FC); */
     /* background: radial-gradient(circle, #C5ADC5 20%, #B2B5E0 70%, #C8E0E5); */
@@ -40,10 +44,14 @@ border-bottom: 1px solid #aaaab0;
     width: 30%;
     display: flex;
     justify-content: right;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
     /* align-items: center; */
     /* background-color: rgb(226, 231, 230); */
     /* background-color: rgb(56, 61, 60); */
-    /* background-color :#C5ADC5; */
+    /* background-color :#cbcacb; */
+    background-color: rgba(233, 213, 233);
     /* background: linear-gradient(to right, #B2B5E0, #fff); */
 
     /* height: 20%; */
@@ -53,8 +61,8 @@ border-bottom: 1px solid #aaaab0;
         flex-direction: column;
         align-items: center;
         padding-right: 40px;
-        /* background-color: #312e2d; */
-        width: 30%;
+        width: 100%;
+        height: 70%;
     }
 
     .lampCover{
@@ -66,17 +74,18 @@ border-bottom: 1px solid #aaaab0;
     }
 
     .lampLid{
-        background-color: hsl(264, 51%, 71%);
-        width: 70px;
-        height: 60px;
-        border-top-right-radius: 70px;
-        border-top-left-radius: 70px;
-        margin-top: -2px;
-        /* background-image: url(../../Images/light.png); */
+       
+        background-image: url(../../Images/light.png);
     }
 
     .lightImage{
-        display: flex;
+        width: 100%;
+        height: 90%;
+        /* display: flex; */
+        background-image: url('../../Images/rb_62407.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
         
         /* width: 150px;
         height: 400px; */
@@ -114,11 +123,20 @@ border-bottom: 1px solid #aaaab0;
 
     
 .name{
-    color: plum;
-    font-size: 30px;
-    margin-left: 100%;
-    font-style: italic;
-    font-family: "Pacifico", cursive;
+    color: rgb(188, 123, 188);
+align-items: center;
+justify-content: left !important;
+display: flex;
+height: 10%;
+    h2{
+        font-size: 28px;
+        font-style: italic;
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        padding: 5px;
+    }
+  
+
     /* background-color: hotpink; */
     /* width: 100%; */
 
@@ -157,7 +175,7 @@ border-bottom: 1px solid #aaaab0;
     width: 70%;
     /* background-color: hsl(164, 61%, 65%); */
     /* background-color :#a8d0e6; */
-    background-color :#C5ADC5;
+    /* background-color :#C5ADC5; */
 
     display: flex;
     align-items: last baseline;
@@ -249,9 +267,50 @@ z-index: 1;    }
         color: rgb(145, 101, 145);
         font-weight: 900;
         margin-left: 10px;
+        height: 50px;
 
     }
+
+    button:hover{
+        border: 3px solid rgb(233, 213, 233);
+        border-left:none ;
+        border-right:none ;
+        border-top:none ;
+    }
 }
+
+
+/* .curly-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    color: #333;
+  } */
+  
+  /* .curly-button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-image: url('https://www.transparenttextures.com/patterns/curlz.png'); 
+    background-size: cover;
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: opacity 0.3s ease, transform 0.4s ease;
+  } */
+  
+  /* Show the underline on hover with animation */
+  /* .curly-button:hover::after {
+    opacity: 1;
+    transform: scaleX(1);
+  } */
 
 /* @media screen and(max-width:800px) {
     .firstDiv{
