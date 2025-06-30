@@ -104,13 +104,8 @@ const Home = () => {
     <div className="homePage">
       <nav>
         <div className="navIcons">
-          <button
-            className="theme-toggle"
-            onClick={toggleTheme}
-            aria-label={`Switch to ${darkMode ? "light" : "dark"} mode`}
-          >
-            {darkMode ? <Sun size={20} /> : <Moon size={20} />}
-          </button>
+       
+            {darkMode  ? <Sun size={20} onClick={toggleTheme} aria-label={`Switch to ${darkMode ? "light" : "dark"} mode`}/> : <Moon size={20} />}
           <a
             href="https://github.com/hyemiie"
             target="_blank"

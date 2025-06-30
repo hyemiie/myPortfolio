@@ -13,7 +13,7 @@ const projectList = [
     title: "Tier Editor",
     href: "https://mark-down-editor-qxuh.vercel.app/",
     description:
-      "A Markdown Editor that allows users to write and edit articles and view the Markdown format in real time.",
+      "A Markdown Editor that allows users to write and edit articles and view the Markdown format in real time.Supports headings, bold/italic text, lists, links, images, code blocks, and more using standard Markdown syntax.",
     gifClass: "GIFdemo1",
   },
   {
