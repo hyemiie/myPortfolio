@@ -19,13 +19,13 @@ const List = () => {
     <div className='pages'>
       <div className='pagesArrangement'>
         <Home />
-        <Works />
+        {/* <Works />
         <Experience />
-        <Projects />
+        <Projects /> */}
       </div>
       <VisibilitySensor onChange={onChange} partialVisibility>
         <div className={`contactView ${isVisible ? 'contactSeen' : 'contactHidden'}`}>
-          <Contact />
+          {/* <Contact /> */}
         </div>
       </VisibilitySensor>
     </div>

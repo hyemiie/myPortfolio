@@ -1,70 +1,132 @@
-@media screen and (max-width: 800px) {
-    .firstDiv {
-        display: none;
-    }
+/* Responsive layout adjustments for Home component */
 
-    .secondDivname{
-        display: block;
-        color: rgb(136, 99, 136);
-        font-size: 30px;
-        margin-left: 100%;
-        font-style: italic;
-        font-family: "Pacifico", cursive;
-    }
+@media screen and (max-width: 1024px) {
+  .homeBody {
+    flex-direction: column;
+    height: auto;
+  }
 
-    .Navbuttons{
-        background-color: rgb(238, 245, 244);
-        width: 100%;
-        height: 7%;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        border-top: 1px solid black;
-        
-        button{
-            margin-left: 25px;
-        }
-    }
+  .firstDiv,
+  .secondDiv {
+    width: 100%;
+  }
 
-    .secondDiv {
-        width: 100%;
-        padding: 20px;
-        /* background-color: yellow; */
-    }
+  .firstDiv {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* padding: 16px; */
+    gap: 20px;
+  }
 
-    .personIntro{
-        /* background-color: plum; */
-        height: 90%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+  .personIntro {
+    width: 60%;
+  }
 
+ 
 
-        h2{
-            text-align: right;
-            margin-right: auto;
-            padding: 0;
-        }
-        p{
-            /* background-color: aquamarine; */
-            font-size: 35px;
-            padding: 1px;
-
-        }
-    }
+  .sidebar {
+    /* width: 35%; */
+    display: none;
+  }
 }
 
+@media screen and (max-width: 968px) {
+  .navIcons {
+    gap: 0.5rem;
+  }
 
-@media screen and (max-width: 400px) {
+  .navIcons > * {
+    width: 18px;
+    height: 18px;
+  }
 
-    .secondDiv{
-        p{
-            font-size: 23px;
-        }
-    }
+  .firstDiv {
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .personIntro {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-top: 10px;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .secondDiv {
+    padding: 10px 20px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .sub-item {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav {
+    padding: 0.5rem;
+  }
+
+  .homeBody {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .firstDiv {
+    padding: 30px;
+  }
+
+  .secondDiv {
+    padding: 30px;
+  }
+
+  .name {
+    font-size: 40px !important;
+  }
+
+  .sectionTitle{
+    font-size: 1.2rem !important;
+    text-transform: uppercase;
+  }
+
+  .jobtitle {
+    font-size: 19px !important;
+  }
+
+  .personIntro p {
+    font-size: 0.85rem;
+  }
+
+  .aboutTitle{
+  display: block !important;
+}
+
+  .navIcons {
+    justify-content: flex-end;
+  }
+
+  .navIcons > * {
+    width: 26px;
+    height: 36px;
+  }
+
+  .section-list {
+    gap: 0.75rem;
+  }
+
+  .nav-link {
+    font-size: 13px;
+  }
+
+  .sub-item {
+    font-size: 12px;
+  }
 }
