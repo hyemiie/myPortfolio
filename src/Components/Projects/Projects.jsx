@@ -6,7 +6,10 @@ const projectList = [
     title: "Vyn",
     href: "https://vyn-web-scanner.onrender.com/hero",
     description:
-      "A Security scanner powered with Artificial Intelligence (AI) that reviews codebase for vulnerabilities, unsafe practices, and risky configurations and gives actionable fixes.",
+
+    `Vyn is a security scanner powered by Artificial Intelligence (AI) that analyzes your codebase for vulnerabilities, unsafe practices, and risky configurations and returns clear, actionable fixes. It’s available as both:
+- a CLI package you can install and run locally, and
+- a web-based version that can clone and scan GitHub repositories directly, with no setup required.`,
     gifClass: "GIFdemo4",
   },
   {
