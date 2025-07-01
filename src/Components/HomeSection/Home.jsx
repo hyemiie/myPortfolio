@@ -44,7 +44,9 @@ const Home = () => {
   }, [darkMode]);
 
   const toggleTheme = () => {
+    console.log('clicked')
     setDarkMode(!darkMode);
+
   };
 
   const sections = [
@@ -105,7 +107,7 @@ const Home = () => {
       <nav>
         <div className="navIcons">
        
-            {darkMode  ? <Sun size={20} onClick={toggleTheme} aria-label={`Switch to ${darkMode ? "light" : "dark"} mode`}/> : <Moon size={20} />}
+            {darkMode  ? <Sun size={20} onClick={toggleTheme} aria-label={`Switch to ${darkMode ? "light" : "dark"} mode`}/> : <Moon size={20} onClick={toggleTheme}/>}
           <a
             href="https://github.com/hyemiie"
             target="_blank"

@@ -48,7 +48,7 @@
   display: flex;
   justify-content: right;
   flex-direction: column;
-  overflow-y: scroll;
+  overflow: hidden;
   /* padding-left: 90px;
   padding-right: 90px; */
   padding: 40px;
@@ -208,7 +208,7 @@ nav {
   top: 0;
   right: 0;
   padding: 1rem 1.5rem;
-  z-index: 1000;
+  z-index: 2000;
   background: transparent;
 }
 
@@ -216,6 +216,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  
 }
 
 .aboutTitle{
