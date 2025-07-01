@@ -10,7 +10,7 @@ import About from "../About/About";
 import { Search, GithubIcon, Sun, Moon, BookOpen } from "lucide-react";
 
 const Home = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   // Refs for smooth scroll
   const aboutRef = useRef(null);
