@@ -4,7 +4,7 @@ import "./projects.css";
 const projectList = [
   {
     title: "Vyn",
-    href: "https://vyn-web-scanner.onrender.com/hero",
+    href: "https://vyn-web-scanner.vercel.app/",
     description:
 
     `Vyn is a security scanner powered by Artificial Intelligence (AI) that analyzes your codebase for vulnerabilities, unsafe practices, and risky configurations and returns clear, actionable fixes. It’s available as both:
