@@ -13,6 +13,15 @@ const projectList = [
     gifClass: "GIFdemo4",
   },
   {
+    title: "Gitxen",
+    href: "https://gitxen-zq9s.vercel.app/home",
+    description:
+
+    `GitXen is a dev-focused tool that transforms codebase communication using RAG with embeddings to answer natural language questions about commits, code changes, and project history. It also includes a Bug Identifier supporting Python, JavaScript, Java, and C++ that detects issues and provides corrected snippets with intelligent fixes.
+`,
+    gifClass: "GIFdemo5",
+  },
+  {
     title: "Tier Editor",
     href: "https://mark-down-editor-qxuh.vercel.app/",
     description:
@@ -39,7 +48,6 @@ const Projects = () => {
       <div className="projects-container">
         {projectList.map((project, index) => (
           <div className="project-item" key={index}>
-            {/* <span className="project-index">0{index + 1}.</span> */}
             <div className="project-content">
               <a
                 href={project.href}
