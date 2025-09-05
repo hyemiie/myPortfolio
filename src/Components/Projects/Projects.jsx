@@ -12,15 +12,15 @@ const projectList = [
 - a web-based version that can clone and scan GitHub repositories directly, with no setup required.`,
     gifClass: "GIFdemo4",
   },
-  {
-    title: "Gitxen",
-    href: "https://gitxen-zq9s.vercel.app/home",
-    description:
+//   {
+//     title: "Gitxen",
+//     href: "https://gitxen-zq9s.vercel.app/home",
+//     description:
 
-    `GitXen is a dev-focused tool that transforms codebase communication using RAG with embeddings to answer natural language questions about commits, code changes, and project history. It also includes a Bug Identifier supporting Python, JavaScript, Java, and C++ that detects issues and provides corrected snippets with intelligent fixes.
-`,
-    gifClass: "GIFdemo5",
-  },
+//     `GitXen is a dev-focused tool that transforms codebase communication using RAG with embeddings to answer natural language questions about commits, code changes, and project history. It also includes a Bug Identifier supporting Python, JavaScript, Java, and C++ that detects issues and provides corrected snippets with intelligent fixes.
+// `,
+//     gifClass: "GIFdemo5",
+//   },
   {
     title: "Tier Editor",
     href: "https://mark-down-editor-qxuh.vercel.app/",
