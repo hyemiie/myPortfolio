@@ -6,7 +6,8 @@
   padding-right: 120px;
   /* background-color: ; */
   background-color: #f3f3f3;
-  height: 100vh;
+  height: 80vh;
+  padding-bottom: 0px;
 }
 .section1 {
   text-align: left;
