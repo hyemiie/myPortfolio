@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../Nav/Nav";
 import "./home2.css";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import BottomNav from "../Nav/BottomNav";
 
 const Home2 = () => {
