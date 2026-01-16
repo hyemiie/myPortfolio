@@ -1,15 +1,19 @@
 import React from "react";
 import "./projects.css";
+import Nav from "../Nav/Nav";
+import BottomNav from "../Nav/BottomNav";
 
 const projectList = [
   {
     title: "Vyn",
     href: "https://vyn-web-scanner.vercel.app/",
+    git_link:"https://github.com/hyemiie/vyn-web-demo",
     description:
 
-    `Vyn is a security scanner powered by Artificial Intelligence (AI) that analyzes your codebase for vulnerabilities, unsafe practices, and risky configurations and returns clear, actionable fixes. It’s available as both:
+    `Vyn is a security scanner powered by Artificial Intelligence (AI) that analyzes codebases for vulnerabilities, unsafe practices, and risky configurations and returns clear, actionable fixes. It’s available as both:
 - a CLI package you can install and run locally, and
-- a web-based version that can clone and scan GitHub repositories directly, with no setup required.`,
+- a web-based version that can clone and scan GitHub repositories directly, with no setup required.
+ Built this to explore how AI can make security checks more useful by explaining issues in plain terms instead of just flagging them.`,
     gifClass: "GIFdemo4",
   },
 //   {
@@ -22,28 +26,56 @@ const projectList = [
 //     gifClass: "GIFdemo5",
 //   },
   {
-    title: "Tier Editor",
-    href: "https://mark-down-editor-qxuh.vercel.app/",
+    title: "CollabMd",
+    href: "https://mark-down-editor-qxuh-git-collaborative-change-hyemies-projects.vercel.app/",
+        git_link: "https://github.com/hyemiie/vyn-web-demo",
     description:
-      "A Markdown Editor that allows users to write and edit articles and view the Markdown format in real time.Supports headings, bold/italic text, lists, links, images, code blocks, and more using standard Markdown syntax.",
+"A writing tool that lets you write and format documents into Markdown and see changes in real time as you type. Added collaboration so multiple writers can work on the same document and share comments. Built this to understand how real-time editing works, handling concurrent edits and how to keep the interface simple when multiple people are involved. Supports the usual Markdown formatting like headings, lists, links, images, and code blocks.",
     gifClass: "GIFdemo1",
   },
+  // {
+  //   title: "Chattr",
+  //   href: "https://chat-application-wrtg.vercel.app/",
+  //       git_link: "https://github.com/hyemiie/vyn-web-demo",
+  //   description:
+  //     "A group chat app that allows different members of a team to send and receive messages/files regardless of location.",
+  //   gifClass: "GIFdemo2",
+  // },
   {
-    title: "Chattr",
-    href: "https://chat-application-wrtg.vercel.app/",
+    title: "JWT + OAuth + TOTP Authentication System",
+    href: "https://auth-client-eight.vercel.app/",
+    git_link: "https://github.com/hyemiie/authentication_system",
     description:
-      "A group chat app that allows different members of a team to send and receive messages/files regardless of location.",
+"THis projects explores how modern login systems actually work. It combines three different ways to authenticate into a single system using regular email and password with JWT tokens, Google sign-in, and two-factor authentication codes. Built this to understand security patterns at a deeper level, like how sessions are maintained, how third-party login flows work, and how an extra layer of verification can be added without breaking the experience. Also included a React interface that walks through each flow, from signup to protected access."  ,
+ gifClass: "GIFdemo2",
+  },
+  {
+    title: "Purchase Regret Predictor",
+    href: "https://auth-client-eight.vercel.app/",
+    git_link: "https://github.com/hyemiie/vyn-web-demo",
+    description:
+"A browser extension that predicts shopping regret before checkout. Trained a model on synthetic purchase data, analyzing price, product type, browsing time, and shopping patterns to identify impulse buy patterns. When risk is detected, it shows a pop-up with a user-friendly analysis and an optional close button. Built this to learn supervised learning workflows and Chrome extension APIs, focusing on how to use ML predictions without disrupting user experience.",
     gifClass: "GIFdemo2",
   },
 ];
 
 const Projects = () => {
   return (
+    <div className="projects-page">
     <section className="projects-section">
+    <Nav/>
  <div className="sectionHeading">
         <h2 className="sectionTitle">Featured Projects </h2>{" "}
-        <div className="sectionBorder"></div>
+        {/* <div className="sectionBorder"></div> */}
       </div>
+<span className="sectionIntro">
+        <h2>Projects & Contributions</h2>
+<p>
+This section highlights a collection of the tools, applications, and systems I’ve built, with brief notes on how they work and my approach to building them.
+
+</p>
+
+</span>
 
       <div className="projects-container">
         {projectList.map((project, index) => (
@@ -58,12 +90,35 @@ const Projects = () => {
                 <h3>{project.title}</h3>
               </a>
               <p className="project-desc">{project.description}</p>
+             <div className="project-links"><a
+                href={project.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-title"
+              >
+               Demo
+              </a>
+              <a
+                href={project.git_link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-title"
+              >
+                Source code
+              </a>
+
             </div>
-            <div className={`project-demo ${project.gifClass}`}></div>
+            </div> 
+
+
+            
+          
           </div>
         ))}
       </div>
     </section>
+          <BottomNav/>
+</div>
   );
 };
 

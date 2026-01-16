@@ -1,17 +1,67 @@
-@media screen and (max-width:800px) {
-    .workGrid{
-        /* background-color: yellow; */
-        padding: 10px;
-    }
-    .workContainer{
-        /* background-color: plum; */
-        width: 100%;
+/* Tablet */
+@media screen and (max-width: 800px) {
+  .workSection {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
 
-    }
+  .sectionIntro h2 {
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
 
-    .workDiv{
-        width: fit-content;
-        margin-top: 10px;
-        height: fit-content;
-    }
+  .sectionIntro p {
+    font-size: 0.9rem;
+  }
+
+  .worKDescription h2 {
+    font-size: 11px;
+    line-height: 1.2;
+  }
+
+  .worKDescription p {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .workSection {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .sectionTitle {
+    font-size: 9px;
+    letter-spacing: 0.8px;
+    margin-top: 32px;
+  }
+
+  .sectionIntro h2 {
+    font-size: 1.3rem;
+    line-height: 1.25;
+  }
+
+  .sectionIntro p {
+    font-size: 0.85rem;
+    margin-bottom: 32px;
+  }
+
+  .workContainer {
+    margin-top: 8px;
+  }
+
+  .worKDescription {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .worKDescription h2 {
+    font-size: 10px;
+    line-height: 1.3;
+  }
+
+  .worKDescription p {
+    font-size: 0.8rem;
+    line-height: 1.45;
+  }
 }

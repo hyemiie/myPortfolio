@@ -1,0 +1,59 @@
+.bottomNav{
+    border-top: 1px solid rgba(50, 50, 50, 0.6);
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+      background-color: #f3f3f3;
+
+    a{
+       color: black;
+       text-decoration: none;
+        font-weight: 300;
+        opacity: 0.5;
+          font-weight: 300;
+  font-family: "Kanit", sans-serif !important;
+  opacity: 0.5;
+    }
+
+    a:hover{
+      text-decoration: underline;
+    }
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+  .bottomNav a {
+    font-size: 0.75rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .bottomNav {
+    gap: 10px;
+  }
+
+  .bottomNav a {
+    font-size: 0.7rem;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .bottomNav {
+    flex-wrap: wrap;
+    row-gap: 8px;
+    text-align: center;
+  }
+
+  .bottomNav a {
+    font-size: 0.65rem;
+  }
+}

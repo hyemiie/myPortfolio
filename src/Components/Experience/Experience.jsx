@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./experience.css";
 import './responsiveExperience.css'
+import Nav from "../Nav/Nav";
+import BottomNav from "../Nav/BottomNav";
 
 const experiences = [
   {
@@ -58,11 +60,21 @@ const Experience = () => {
     experiences[activeIndex];
 
   return (
+    <div className="experiencePage">
     <section className="experienceSection">
+    <Nav/>
       <div className="sectionHeading">
         <h2 className="sectionTitle">Places I've contributed to </h2>{" "}
-        <div className="sectionBorder"></div>
+        {/* <div className="sectionBorder"></div> */}
       </div>
+      <span className="experience-sectionIntro">
+        <h2>
+Work & Experience
+        </h2>
+<p>
+A record of the work I've done, the problems I've solved, and the teams I've built with.
+</p>
+</span>
       <div className="experienceContainer">
         <div className="tabList">
           {experiences.map((exp, idx) => (
@@ -92,6 +104,9 @@ const Experience = () => {
         </div>
       </div>
     </section>
+          <BottomNav/>
+
+    </div>
   );
 };
 

@@ -2,6 +2,8 @@
     .experienceSection{
         display: flex;
         flex-direction: column;
+          padding-left: 40px ;
+  padding-right: 40px ;
 
     }
 
@@ -14,6 +16,11 @@
     .tabList{
         display: flex;
         flex-direction: row;
+    }
+    .tabContent{
+        padding: 0;
+        margin: 0;
+        padding-bottom: 20px;
     }
 
     .secondHalf{
@@ -30,6 +37,7 @@
         align-items: center;
         justify-content: center;
       width: 80%;
+      background-color: palegoldenrod;
     }
     
 
@@ -51,7 +59,6 @@
 
             margin-top: 10px;
             font-size: 12px;
-
             
         }
     }

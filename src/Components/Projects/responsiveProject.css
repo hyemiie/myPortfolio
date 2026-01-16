@@ -1,4 +1,4 @@
-/* @media screen and (max-width:800px) {
+@media screen and (max-width:800px) {
     .projectGrid{
         display: flex !important;
         flex-direction: column;
@@ -20,4 +20,4 @@
             color: white;
         }
     }
-} */
+}

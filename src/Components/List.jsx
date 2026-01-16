@@ -6,6 +6,7 @@ import Contact from './Contact/Contact';
 import VisibilitySensor from 'react-visibility-sensor';
 import './list.css';
 import Experience from './Experience/Experience';
+import Home2 from './HomeSection/Home2';
 
 const List = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -18,7 +19,7 @@ const List = () => {
   return (
     <div className='pages'>
       <div className='pagesArrangement'>
-        <Home />
+        <Home2 />
         {/* <Works />
         <Experience />
         <Projects /> */}

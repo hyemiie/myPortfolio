@@ -1,63 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;600&family=Source+Code+Pro&display=swap");
 
-:root {
-  --bg: #0a192f;
-  --text: #ccd6f6;
-  --muted: #8892b0;
-  --accent: #64eaff;
-  --card: #112240;
-}
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
 
-body {
-  /* background-color: var(--bg); */
-  /* font-family: "Karla", sans-serif; */
-            font-family: "Kanit", sans-serif;
 
-  margin: 0;
-  padding: 0;
-}
 
-.projects-section {
-  color: var(--text);
-  /* padding: 6rem 2rem; */
-  max-width: 900px;
-  margin: 0 auto;
-  padding-top: 90px ;
-}
-
-.projects-section h2 {
-              font-family: "Kanit", sans-serif;
-
-  font-size: clamp(0.75rem, 3vw, 1.5rem);
-  font-weight: 500;
-  margin-bottom: 3rem;
-  position: relative;
-  text-align: left;
-    color:  #94a3b8;
+.projects-section{
+  padding-left: 150px;
+  padding-right: 150px;
+      background-color: rgb(245, 245, 243);
 
 }
 
-.projects-section h2::after {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 2px;
-  margin-top: 10px;
-}
 
-.projects-container {
-  display: grid;
-  gap: 4rem;
+.sectionHeading{
+  padding-bottom: 40px;
 }
-
 .project-item {
-  /* display: grid;
-  grid-template-columns: 30px 1fr 120px;
-  grid-template-columns: repeat(); */
-  display: flex;
-  flex-direction: row-reverse;
-  column-gap: 1.1rem;
-  align-items: start;
+
 }
 
 .project-index {
@@ -72,19 +31,35 @@ body {
   text-decoration: none;
 }
 
+.project-content{
+border-bottom: 1px solid rgba(154, 151, 151, 0.5);
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.project-content:hover{
+  background-color: rgb(242, 242, 242);
+}
+
+.project-content:hover h3{
+  opacity: 0.4;
+}
+
 .project-content h3 {
   margin: 0;
   font-size: 1.25rem;
-  font-weight: 600;
-  color: #8892b0;
+  font-weight: 400;
+  color: #2c2c2c;
   transition: color 0.2s;
   text-align: left;
-
+font-family: "Lora", "Georgia", serif;
+   
+  
 }
 
-.project-title:hover h3 {
+/* .project-title:hover h3 {
   color: var(--accent);
-}
+} */
 
 .project-desc {
   font-size: 0.95rem;
@@ -92,7 +67,9 @@ body {
   color: var(--muted);
   margin-top: 0.5rem;
   text-align: left;
-              font-family: "Kanit", sans-serif !important;
+  font-weight: 300;
+  font-family: "Kanit", sans-serif !important;
+  opacity: 0.5;
 
 }
 .project-demo {
@@ -108,6 +85,38 @@ body {
   flex-shrink: 0;
 }
 
+
+.project-links{
+  display: flex;
+  gap: 10px;
+ a{
+    font-family: "Kanit", sans-serif !important;
+
+  color: rgb(71, 71, 70);
+  border-bottom: 1px solid rgb(70, 70, 70, 0.2);
+  font-weight: 350;
+ }
+ 
+}
+
+.sectionIntro{
+  background-color: sandybrown !important;
+  h2{
+    font-family: "Lora", "Georgia", serif;
+    font-size: 2rem;
+    line-height: 0.5;
+    font-weight: 500;
+  
+  }
+  p{
+    font-weight: 300;
+        opacity: 0.5;
+          font-weight: 300;
+  font-family: "Kanit", sans-serif !important;
+  opacity: 0.5;
+
+  }
+}
 
 .project-demo:hover {
   opacity: 1;
@@ -128,4 +137,56 @@ body {
 
 .GIFdemo5 {
   background-image: url('../../Images/demo4.gif');
+}
+
+.project-desc strong {
+  display: block;
+  font-weight: 400;
+  opacity: 0.85;
+  margin-bottom: 0.5rem;
+}
+
+.project-desc ul {
+  padding-left: 1.2rem;
+  margin: 0.5rem 0 0;
+}
+
+.project-desc li {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  opacity: 0.6;
+  margin-bottom: 0.3rem;
+  list-style-type: disc;
+  font-family: "Kanit", sans-serif;
+}
+
+
+@media screen and (max-width: 576px) {
+  
+  .projects-section{
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+  .project-item{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .project-demo{
+  
+    background-position: center;
+    background-size: contain;
+    width: 80%;
+
+  }
+
+  .project-div{
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
