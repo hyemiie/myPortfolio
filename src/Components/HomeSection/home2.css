@@ -1,14 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
 
-.landing-page {
-  padding-left: 120px;
-  padding-right: 120px;
-  /* background-color: ; */
-  background-color: #f3f3f3;
-  height: 80vh;
-  padding-bottom: 0px;
+.landing-div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
+.landing-page {
+  flex: 1;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #f3f3f3;
+  padding-bottom: 0;
+}
+
+
 .section1 {
   text-align: left;
 
