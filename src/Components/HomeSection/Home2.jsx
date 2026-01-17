@@ -54,7 +54,7 @@ I'm Yemi, a developer based in Mauritius, currently working on backend systems i
 I also contribute to freeCodeCamp, where I write articles that explore how technologies work and why they work the way they do.
 </p>
       </div>
-      <h3>Follow my Journey</h3>
+      <h3 className="link-heading">Follow my Journey</h3>
         <div className='hero-links'>
             
                 <a href="/experience"> Places I've contributed to  <ArrowRight size={16}/></a>

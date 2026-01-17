@@ -13,7 +13,7 @@
          font-family: "Reenie Beanie", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: clamp(18px, 3vw, 26px);
+  font-size: clamp(30px, 3vw, 26px);
   a{color: black;
     
   text-decoration: none;
@@ -23,64 +23,58 @@
 
 .links{
     background-color: transparent;
-    ul{
-        background-color: transparent;
-        display: flex;
-        li{
-            background-color: transparent;
-            list-style: none;
-            padding: 3px;
-             font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont,
+    gap: 10px;
+    display: flex;
+    a{
+        color: black;
+        text-decoration: none;
+            font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont,
     sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
     opacity: 0.7;
-      font-size: clamp(17.5px, 1.5vw, 12px);
-
-
-        }
-    }
-    a{
-        color: black;
-        text-decoration: none;
+      font-size: clamp(12.5px, 1.5vw, 12px);
     }
 }
 
-li:hover{
+a:hover{
         text-decoration: underline;
 
-}/* Tablet */
+}
 @media (max-width: 900px) {
-  .logo h2 {
-    font-size: 22px;
-  }
-/* 
-  .links ul li {
-    font-size: 9px;
-  } */
+
 }
 
-/* Mobile */
 @media (max-width: 600px) {
-  .logo h2 {
-    font-size: 20px;
+
+  .navBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+   
   }
 
-  /* .links ul li {
-    font-size: 8px;
-    letter-spacing: 0.8px;
-  } */
+  .logo{
+   
+    h2{
+        margin-bottom: 12px;
+    }
+  }
+
+
 }
 
-/* Small phones */
 @media (max-width: 420px) {
-  .logo h2 {
-    font-size: 18px;
+ 
+  .navBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin:0
   }
 
-  /* .links ul li {
-    font-size: 7.5px;
-    letter-spacing: 0.6px;
-  } */
 }

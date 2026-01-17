@@ -7,11 +7,9 @@ const Nav = () => {
         <h2><a href='/'>Yemi Ojedapo</a></h2>
         </div>
         <div className='links'>
-            <ul>
-                <li><a href='/experience'>Experience</a></li>
-                <li><a href='/projects'>Projects</a></li>
-                <li><a href='/notes'>Technical Notes</a></li>
-            </ul>
+           <a href='/experience'>Experience</a>
+              <a href='/projects'>Projects</a>
+                <a href='/notes'> Notes</a>
         </div>
     </div>
   )

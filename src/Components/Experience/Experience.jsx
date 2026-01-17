@@ -36,7 +36,7 @@ const experiences = [
     description: `Designed and maintained the server-side systems that support key accounting functions, such as handling large datasets and ensuring real-time accuracy in financial transactions. I also contributed to building a Business Intelligence (BI) tool, which allows users to easily manipulate data and create custom reports and charts`,
   },
   {
-    company: "Tysu Infotech",
+    company: "Tysu Info",
     title: "Software Engineering Intern",
     date: "May 2023 – Sep 2023",
     skills: [

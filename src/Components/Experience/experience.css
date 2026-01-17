@@ -41,7 +41,7 @@ font-family: "Kanit", sans-serif;
 .experienceContainer {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  flex-wrap: wrap; 
 }
 
 .tabList {
@@ -75,12 +75,11 @@ font-family: "Kanit", sans-serif;
 
 .tabContent {
   flex: 3;
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
   padding-bottom: 3rem;
   text-align: left;
   width: 100%; /* Take full width on small screens */
   max-width: 600px;
-  /* background-color: #1e1e1e; */
   overflow-x: hidden;
   h3{
     font-weight: 500;
@@ -137,7 +136,7 @@ font-family: "Kanit", sans-serif;
 .experience-sectionIntro{
   h2{
     font-family: "Lora", "Georgia", serif;
-    font-size: 2rem;
+font-size: clamp(1.3rem, 4vw, 2rem);
     line-height: 0.5;
     font-weight: 500;
   
