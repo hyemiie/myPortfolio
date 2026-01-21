@@ -16,21 +16,22 @@ const projectList = [
  Built this to explore how AI can make security checks more useful by explaining issues in plain terms instead of just flagging them.`,
     gifClass: "GIFdemo4",
   },
-//   {
-//     title: "Gitxen",
-//     href: "https://gitxen-zq9s.vercel.app/home",
-//     description:
+  {
+    title: "Gitxen",
+    href: "https://gitxen-zq9s.vercel.app/home",
+    git_link: "https://github.com/hyemiie/git-chat",
+    description:
 
-//     `GitXen is a dev-focused tool that transforms codebase communication using RAG with embeddings to answer natural language questions about commits, code changes, and project history. It also includes a Bug Identifier supporting Python, JavaScript, Java, and C++ that detects issues and provides corrected snippets with intelligent fixes.
-// `,
-//     gifClass: "GIFdemo5",
-//   },
+    `GitXen is a dev-focused tool that transforms codebase communication using RAG with embeddings to answer natural language questions about commits, code changes, and project history.`,
+    gifClass: "GIFdemo5",
+  },
   {
     title: "CollabMd",
     href: "https://mark-down-editor-qxuh-git-collaborative-change-hyemies-projects.vercel.app/",
         git_link: "https://github.com/hyemiie/vyn-web-demo",
     description:
-"A writing tool that lets you write and format documents into Markdown and see changes in real time as you type. Added collaboration so multiple writers can work on the same document and share comments. Built this to understand how real-time editing works, handling concurrent edits and how to keep the interface simple when multiple people are involved. Supports the usual Markdown formatting like headings, lists, links, images, and code blocks.",
+
+"A real-time Markdown editor that lets multiple writers collaborate simultaneously on the same document. I built this to understand how real-time editing works—handling concurrent edits, syncing changes instantly, and keeping the interface simple when multiple people are working together. Supports headings, lists, links, images, code blocks, and inline comments.",
     gifClass: "GIFdemo1",
   },
   // {
@@ -51,8 +52,8 @@ const projectList = [
   },
   {
     title: "Purchase Regret Predictor",
-    href: "https://auth-client-eight.vercel.app/",
-    git_link: "https://github.com/hyemiie/vyn-web-demo",
+    href: "https://addons.mozilla.org/addon/purchase-regret-predictor/",
+    git_link: "https://github.com/hyemiie/regret_predictor-server",
     description:
 "A browser extension that predicts shopping regret before checkout. Trained a model on synthetic purchase data, analyzing price, product type, browsing time, and shopping patterns to identify impulse buy patterns. When risk is detected, it shows a pop-up with a user-friendly analysis and an optional close button. Built this to learn supervised learning workflows and Chrome extension APIs, focusing on how to use ML predictions without disrupting user experience.",
     gifClass: "GIFdemo2",
