@@ -73,6 +73,22 @@ font-family: "Kanit", sans-serif;
   border-left: 2px solid #585959;
 }
 
+.impactItem{
+    margin-bottom: 1rem;
+  width: 100%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+        opacity: 0.5;
+
+        .points-title{
+          opacity: 1 !important;
+          color: rgb(5, 5, 4);
+        }
+}
+.impactItem:hover {
+  text-decoration: none;
+}
+
 .tabContent {
   flex: 3;
   /* padding-left: 2rem; */
