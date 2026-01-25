@@ -47,7 +47,7 @@ const projectList = [
     href: "https://auth-client-eight.vercel.app/",
     git_link: "https://github.com/hyemiie/authentication_system",
     description:
-"THis projects explores how modern login systems actually work. It combines three different ways to authenticate into a single system using regular email and password with JWT tokens, Google sign-in, and two-factor authentication codes. Built this to understand security patterns at a deeper level, like how sessions are maintained, how third-party login flows work, and how an extra layer of verification can be added without breaking the experience. Also included a React interface that walks through each flow, from signup to protected access."  ,
+"This projects explores how modern login systems actually work. It combines three different ways to authenticate into a single system using regular email and password with JWT tokens, Google sign-in, and two-factor authentication codes. Built this to understand security patterns at a deeper level, like how sessions are maintained, how third-party login flows work, and how an extra layer of verification can be added without breaking the experience. Also included a React interface that walks through each flow, from signup to protected access."  ,
  gifClass: "GIFdemo2",
   },
 //   {
