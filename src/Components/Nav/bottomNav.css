@@ -45,7 +45,6 @@
   }
 }
 
-/* Very small screens */
 @media (max-width: 480px) {
   .bottomNav {
     flex-wrap: wrap;

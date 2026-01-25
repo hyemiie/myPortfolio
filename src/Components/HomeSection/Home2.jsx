@@ -57,7 +57,7 @@ I also contribute to freeCodeCamp, where I write articles that explore how techn
       <h3 className="link-heading">Follow my Journey</h3>
         <div className='hero-links'>
             
-                <a href="/experience"> Places I've contributed to  <ArrowRight size={16}/></a>
+                <a href="/experience"> Places I've contributed to<ArrowRight size={16}/></a>
                 <a href="/projects"> Projects Done  <ArrowRight size={16}/></a>
                 <a href="/notes">Notes on Projects  <ArrowRight size={16}/></a>
                 
