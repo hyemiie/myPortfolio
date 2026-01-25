@@ -50,14 +50,14 @@ const projectList = [
 "THis projects explores how modern login systems actually work. It combines three different ways to authenticate into a single system using regular email and password with JWT tokens, Google sign-in, and two-factor authentication codes. Built this to understand security patterns at a deeper level, like how sessions are maintained, how third-party login flows work, and how an extra layer of verification can be added without breaking the experience. Also included a React interface that walks through each flow, from signup to protected access."  ,
  gifClass: "GIFdemo2",
   },
-  {
-    title: "Purchase Regret Predictor",
-    href: "https://addons.mozilla.org/addon/purchase-regret-predictor/",
-    git_link: "https://github.com/hyemiie/regret_predictor-server",
-    description:
-"A browser extension that predicts shopping regret before checkout. Trained a model on synthetic purchase data, analyzing price, product type, browsing time, and shopping patterns to identify impulse buy patterns. When risk is detected, it shows a pop-up with a user-friendly analysis and an optional close button. Built this to learn supervised learning workflows and Chrome extension APIs, focusing on how to use ML predictions without disrupting user experience.",
-    gifClass: "GIFdemo2",
-  },
+//   {
+//     title: "Purchase Regret Predictor",
+//     href: "https://addons.mozilla.org/addon/purchase-regret-predictor/",
+//     git_link: "https://github.com/hyemiie/regret_predictor-server",
+//     description:
+// "A browser extension that predicts shopping regret before checkout. Trained a model on synthetic purchase data, analyzing price, product type, browsing time, and shopping patterns to identify impulse buy patterns. When risk is detected, it shows a pop-up with a user-friendly analysis and an optional close button. Built this to learn supervised learning workflows and Chrome extension APIs, focusing on how to use ML predictions without disrupting user experience.",
+//     gifClass: "GIFdemo2",
+//   },
 ];
 
 const Projects = () => {
